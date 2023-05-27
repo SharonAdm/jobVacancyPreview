@@ -14,3 +14,7 @@ $ npm install
 
 $ npm run start
 ```
+
+To see a demo of the project check out the link below! 
+
+[demo](https://main--amazing-twilight-f35d77.netlify.app/?)
