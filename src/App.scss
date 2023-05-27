@@ -1,0 +1,120 @@
+
+$backgound-grey: rgb(241,244,246);
+$text-grey: rgb(128,128,128);
+$primary-green: rgb(26, 195, 136);
+
+
+html{
+    background-color: $backgound-grey;
+}
+
+.main{
+    padding: 50px 100px;
+}
+
+form {
+    display: flex ;
+    height: 60px;
+    padding: 0px 10px
+  }
+
+input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid  $backgound-grey;
+    padding: 15px 45px;
+    font-size: 15px;
+    accent-color: $primary-green;
+    height: 60px;
+  }
+
+  label {
+    line-height: 2;
+    text-align: left;
+    display: block;
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+  }
+
+.icon {
+    position: absolute;
+    padding: 20px
+}
+
+.title-input{
+    width: 40%
+}
+
+.location-input{
+    width: 30%
+}
+
+.checkbox-input{
+    width: 30%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border: 1px solid  $backgound-grey;
+    justify-content: space-between;
+    padding: 0px 15px;
+    font-weight: bold;
+}
+
+.button{
+    color: white;
+    padding: 10px 30px;
+    background-color: $primary-green;
+    border-radius: 5px;
+    border: none;
+}
+
+.homepage-body{
+    margin: 50px 0px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.card-container{
+    padding: 30px 15px
+}
+
+.card-body{
+    background-color: white;
+    height: 200px;
+    border-radius: 5px;
+    padding: 30px 30px
+}
+
+.card-secondary-text{
+    display: flex;
+    font-size: 12px; 
+    color: $text-grey;
+    padding: 20px 0px 
+}
+
+.card-primary-text{
+    padding-top: 30px;
+    font-size: 12px; 
+    font-weight: bold;
+    color: $primary-green
+}
+
+.card-logo{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    border-radius: 15px;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 30px;
+}
+
+.empty-page{
+    color: $text-grey;
+    display: flex;
+    justify-content: center;
+}
